@@ -1,11 +1,13 @@
 const displayValorAnterior = document.getElementById('valor-anterior');
 const displayValorActual = document.getElementById('valor-actual');
-const botonesNumeros = document.getElementById('numero');
-const botonesOperadores = document.getElementById('operador');
+const botonesNumeros = document.querySelectorAll('numero');
+const botonesOperadores = document.querySelectorAll('operador');
 
-const Calculadora = new Calculadora();
+const display = new Display(displayValorActual, displayValorAnterior);
 
-console.log(Calculadora.sumar(2,3))
-console.log(Calculadora.restar(2,3))
-console.log(Calculadora.multipiclar(2,3))
-console.log(Calculadora.dividir(2,3))
+botonesNumeros.forEach(boton =>{
+    boton.addEventListener('click',()=>{
+
+    })
+
+})
