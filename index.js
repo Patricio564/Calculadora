@@ -5,9 +5,7 @@ const botonesOperadores = document.querySelectorAll('operador');
 
 const display = new Display(displayValorActual, displayValorAnterior);
 
-botonesNumeros.forEach(boton =>{
-    boton.addEventListener('click',()=>{
-
-    })
-
-})
+botonesNumeros.forEach(boton => {
+    boton.eddEventListener('click', () => {
+        display
+        )
