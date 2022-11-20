@@ -54,7 +54,7 @@ button {
 }
 
 .btn-yellow {
-    background: rgba(245, 146, 62);
+    background: #00ffff;
     color: #fff;
 }
 .btn-grey {
@@ -62,9 +62,9 @@ button {
 }
 
 .btn-equal {
-    background: green;
+    background: #00ff00;
 }
 .btn-clear {
-    background: red;
+    background: #ff0000;
     
 }
